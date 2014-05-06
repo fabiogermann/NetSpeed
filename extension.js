@@ -102,10 +102,10 @@ const NetSpeedStatusIcon = new Lang.Class({
 			this._downicon = this._get_icon("down");
 			this._sum = new St.Label({ text: "---", style_class: 'ns-label'});
 			this._sumunit = new St.Label({ text: "", style_class: 'ns-unit-label'});
-			this._up = new St.Label({ text: "---", style_class: 'ns-label'});
-			this._upunit = new St.Label({ text: "", style_class: 'ns-unit-label'});
-			this._down = new St.Label({ text: "---", style_class: 'ns-label'});
-			this._downunit = new St.Label({ text: "", style_class: 'ns-unit-label'});
+			this._up = new St.Label({ text: "---", style_class: 'ns-label ns-up-label'});
+			this._upunit = new St.Label({ text: "", style_class: 'ns-unit-label ns-up-label'});
+			this._down = new St.Label({ text: "---", style_class: 'ns-label ns-down-label'});
+			this._downunit = new St.Label({ text: "", style_class: 'ns-unit-label ns-down-label'});
 
 			this._box.add_actor(this._sum);
 			this._box.add_actor(this._sumunit);

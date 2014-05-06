@@ -1,15 +1,26 @@
 /* Example stylesheet */
 .ns-label {
-/*    color: #bbb; */
+	color: #aaa;
 	text-align: right;
+	width: 100px; 
+	font-size: 16px; /* Use 8px for LowDPI Screens */
+	padding-top: 8px; /* Use 6px for LowDPI Screens */
 }
 
 .ns-unit-label {
-/*    color: #aaa; */
-	font-size: 8px;
-	padding: 6px 2px 0px 0px;
-	
+	color: #aaa;
+	text-align: left;
+	font-size: 16px; /* Use 8px for LowDPI Screens */
+	padding: 8px 3px 3px 3px; /*  Use 6 2 0 0 for LowDPI Screens */
 }
 
 .ns-menuitem {
+}
+
+.ns-down-label {
+	color: #009900;
+}
+
+.ns-up-label {
+	color: #CC3333;
 }
